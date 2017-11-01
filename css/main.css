@@ -1,0 +1,143 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Lato';
+}
+
+#about, #my-skills, #work {
+  height: 550px;
+}
+
+footer {
+  height: 350px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1224px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 612px;
+  margin: 0 auto;
+  float: left;
+}
+
+.third-width {
+  width: 408px;
+  margin: 0 auto;
+  float: left;
+
+}
+
+/**** HEADER ****/
+header {
+  height: 550px;
+  width: 100%;
+  background-image: url('../img/header-shapes.jpg');
+}
+
+header h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 56px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: black;
+  padding-top: 57px;
+  padding-left: 175px;
+}
+
+header p {
+  font-family: "Lato";
+  font-size: 42px;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: black;
+  padding-top: 30px;
+  padding-left: 175px;
+  padding-right: 150px;
+}
+
+/***** ABOUT *****/
+#about h3 {
+  padding-top: 12px;
+  font-family: 'Source-Sans-Pro';
+}
+
+#about p {
+  font-size: 28px;
+  padding-top: 32px;
+  text-align: justify;
+  line-height: 40px;
+}
+
+#about img {
+  padding-top: 32px;
+  padding-left: 92px;
+}
+
+/***** MY SKILLS *****/
+
+#my-skills {
+  background: #faba97;
+  padding-top: 20px;
+}
+
+
+#my-skills h3 {
+  font-family: 'Source-Sans-Pro';
+  padding-top: 12px;
+}
+
+#my-skills p {
+  padding: 0 85px;
+
+}
+
+#my-skills .third-width {
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+/***** Work *****/
+
+#work h3 {
+  padding-top: 12px;
+  font-family: 'Source-Sans-Pro';
+}
+
+#work .third-width {
+  text-align: center;
+  padding-top: 70px;
+}
+
+#work p {
+  padding: 0 85px;
+}
+
+/***** Contact *****/
+
+#contact {
+  background: #ffff99;
+}
+
+#contact h3 {
+  padding-top: 24px;
+  font-family: 'Source-Sans-Pro';
+}
+
+#contact p {
+  padding-top: 60px;
+  font-family: 'Lato';
+}
+
+#contact li{
+  list-style: none;
+  display: inline-block;
+}
+
+#contact ul img {
+  padding: 60px 12px 0 125px;
+}
