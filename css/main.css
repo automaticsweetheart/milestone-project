@@ -33,7 +33,7 @@ footer {
 
 /**** HEADER ****/
 header {
-  height: 550px;
+  height: 500px;
   width: 100%;
   background-image: url('../img/header-shapes.jpg');
 }
@@ -45,18 +45,18 @@ header h1 {
   text-transform: uppercase;
   color: black;
   padding-top: 57px;
-  padding-left: 175px;
+  padding-left: 100px;
+  margin: 0px;
 }
 
 header p {
   font-family: "Lato";
-  font-size: 42px;
+  font-size: 50px;
   font-variant: small-caps;
-  font-weight: bold;
+  font-weight: bolder;
   color: black;
-  padding-top: 30px;
-  padding-left: 175px;
-  padding-right: 150px;
+  padding-left: 100px;
+  padding-right: 60px;
 }
 
 /***** ABOUT *****/
