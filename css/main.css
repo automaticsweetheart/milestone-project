@@ -141,3 +141,7 @@ header p {
 #contact ul img {
   padding: 60px 12px 0 125px;
 }
+
+a {
+  text-decoration: none;
+}
